@@ -10,6 +10,10 @@ Official references:
 
 ## Project
 
+- First name: do not store in the repository; use the applicant's account identity in the form.
+- Last name: do not store in the repository; use the applicant's account identity in the form.
+- Email: do not store in the repository; use the applicant's ChatGPT account email in the form.
+- OpenAI Organization ID: do not store in the repository; required in the form.
 - GitHub username: `charlesree826`
 - Repository URL: `https://github.com/charlesree826/phi-guard-mcp`
 - Installable release: `https://github.com/charlesree826/phi-guard-mcp/releases/tag/v0.1.1`
@@ -36,6 +40,28 @@ benchmark metrics, and audit summaries with transparent deterministic rules.
 This is a new project, so the application should not overstate adoption. The ecosystem importance is
 the gap it targets: local privacy guardrails for AI agent workflows that may handle medical text,
 without turning the project into regulated clinical decision support.
+
+## Form-Ready Drafts
+
+These drafts are kept under 500 characters for fields with short text limits.
+
+Qualification / project importance:
+
+```text
+phi-guard-mcp is healthcare AI privacy infrastructure: a local MCP server and CLI that detects, redacts, audits, and gates PHI-like identifiers before medical text enters AI agent workflows. It ships synthetic benchmarks, Safe Harbor mapping as a review aid, CI privacy gate, v0.1.1 release assets, public roadmap issues, and explicit non-goals around diagnosis, treatment, CDS, and HIPAA compliance claims.
+```
+
+API credits:
+
+```text
+Use credits for Codex-assisted OSS maintenance: expand synthetic PHI benchmark cases, improve deterministic redaction rules, review privacy/security edge cases, triage issues, write MCP setup docs, add install smoke tests, and improve release workflows. Credits would not be used to process real patient data.
+```
+
+Usage / ecosystem importance:
+
+```text
+New project with early adoption metrics, applying on ecosystem importance: privacy guardrails at the healthcare AI agent boundary. Public repo has MIT license, CI on Ubuntu/Windows, release assets, security policy, contributing docs, issue templates, and roadmap issues. PyPI trusted publishing is configured but pending PyPI account publisher setup.
+```
 
 ## Maintenance Evidence
 

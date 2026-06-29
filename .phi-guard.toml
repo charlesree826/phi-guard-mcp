@@ -27,6 +27,7 @@ allow_text = [
   "https://github.com/charlesree826/phi-guard-mcp/releases/download/v0.1.2/phi_guard_mcp-0.1.2-py3-none-any.whl",
   "https://img.shields.io/github/license/charlesree826/phi-guard-mcp.svg",
   "https://img.shields.io/github/v/release/charlesree826/phi-guard-mcp.svg",
+  "https://img.shields.io/pypi/v/phi-guard-mcp.svg",
   "https://img.shields.io/badge/python-3.12%2B-blue.svg",
   "https://pypi.org/project/phi-guard-mcp/",
   "https://www.hhs.gov/hipaa/for-professionals/special-topics/de-identification/index.html",

@@ -17,7 +17,7 @@ Official references:
 - GitHub username: `charlesree826`
 - Repository URL: `https://github.com/charlesree826/phi-guard-mcp`
 - Installable release: `https://github.com/charlesree826/phi-guard-mcp/releases/tag/v0.1.2`
-- PyPI package: pending PyPI trusted publisher setup
+- PyPI package: `https://pypi.org/project/phi-guard-mcp/`
 - Role: primary maintainer and repository owner
 - License: MIT
 - Current release: `v0.1.2`
@@ -49,26 +49,28 @@ These drafts are kept under 500 characters for fields with short text limits.
 Qualification / project importance:
 
 ```text
-phi-guard-mcp is healthcare AI privacy infrastructure: a local MCP server and CLI that detects, redacts, audits, and gates PHI-like identifiers before medical text enters AI agent workflows. It ships synthetic benchmarks, Safe Harbor mapping as a review aid, CI privacy gate, v0.1.2 release assets, public roadmap issues, and explicit non-goals around diagnosis, treatment, CDS, and HIPAA compliance claims.
+phi-guard-mcp is healthcare AI privacy infrastructure for agent workflows: a local MCP server and CLI that detects, redacts, audits, and gates PHI-like identifiers before medical text enters AI context. It is new but ecosystem-relevant: it ships synthetic benchmarks, Safe Harbor mapping as a review aid, CI privacy gate, public roadmap issues, PyPI package, and explicit non-goals for diagnosis/CDS/HIPAA claims.
 ```
 
 API credits:
 
 ```text
-Use credits for Codex-assisted OSS maintenance: expand synthetic PHI benchmark cases, improve deterministic redaction rules, review privacy/security edge cases, triage issues, write MCP setup docs, add install smoke tests, and improve release workflows. Credits would not be used to process real patient data.
+Use credits for Codex-assisted OSS maintenance: expand synthetic PHI benchmark cases, improve deterministic redaction rules, review privacy/security edge cases, triage issues, document MCP client setup, add install smoke tests, and improve release workflows. Maintainer-reviewed outputs only; no real patient data will be processed.
 ```
 
 Additional information:
 
 ```text
-New project applying on ecosystem importance, not existing adoption metrics. Public repo has MIT license, CI on Ubuntu/Windows, v0.1.2 GitHub release with wheel/sdist, security policy, contributing docs, issue templates, roadmap issues, synthetic benchmark, Safe Harbor mapping review aid, and CI privacy gate. PyPI trusted publishing workflow is prepared, but PyPI package publishing is still pending.
+New project applying on ecosystem importance rather than adoption metrics. Evidence: public MIT repo, primary maintainer ownership, CI on Ubuntu/Windows, v0.1.2 GitHub release, PyPI package, security policy, contributing docs, issue templates, roadmap issues, synthetic benchmark, Safe Harbor mapping review aid, and CI privacy gate.
 ```
 
 ## Maintenance Evidence
 
 - MIT-licensed Python package with CLI and MCP stdio server.
 - Public GitHub release `v0.1.2` with wheel and source distribution.
-- GitHub Actions trusted publishing workflow prepared for PyPI.
+- Public PyPI package: `https://pypi.org/project/phi-guard-mcp/`.
+- GitHub Actions trusted publishing workflow for PyPI completed successfully.
+- Installable through `python -m pip install phi-guard-mcp`.
 - GitHub Actions on Ubuntu and Windows for lint, tests, compile checks, privacy gate, package build,
   and package metadata validation.
 - Community files: contributing guide, security policy, code of conduct, issue templates, and pull

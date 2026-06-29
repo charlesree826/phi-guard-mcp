@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/charlesree826/phi-guard-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/charlesree826/phi-guard-mcp/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/charlesree826/phi-guard-mcp.svg)](https://github.com/charlesree826/phi-guard-mcp/releases)
+[![PyPI](https://img.shields.io/pypi/v/phi-guard-mcp.svg)](https://pypi.org/project/phi-guard-mcp/)
 [![Python](https://img.shields.io/badge/python-3.12%2B-blue.svg)](pyproject.toml)
 [![License](https://img.shields.io/github/license/charlesree826/phi-guard-mcp.svg)](LICENSE)
 
@@ -35,20 +36,20 @@ and [FDA device software functions](https://www.fda.gov/medical-devices/digital-
 
 ## Install
 
-Install from the current GitHub release wheel:
+Install from PyPI:
 
 ```bash
-python -m pip install https://github.com/charlesree826/phi-guard-mcp/releases/download/v0.1.2/phi_guard_mcp-0.1.2-py3-none-any.whl
+python -m pip install phi-guard-mcp
 ```
+
+The current GitHub release also includes wheel and source distribution artifacts:
+[v0.1.2](https://github.com/charlesree826/phi-guard-mcp/releases/tag/v0.1.2).
 
 For local development:
 
 ```bash
 python -m pip install -e ".[dev]"
 ```
-
-PyPI publishing is configured through GitHub Actions trusted publishing and will be enabled after
-the PyPI package owner creates the matching pending publisher entry for this repository.
 
 ## Quickstart
 

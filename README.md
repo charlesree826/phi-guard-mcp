@@ -1,9 +1,8 @@
 # phi-guard-mcp
 
 [![CI](https://github.com/charlesree826/phi-guard-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/charlesree826/phi-guard-mcp/actions/workflows/ci.yml)
-[![PyPI](https://img.shields.io/pypi/v/phi-guard-mcp.svg)](https://pypi.org/project/phi-guard-mcp/)
-[![Python](https://img.shields.io/pypi/pyversions/phi-guard-mcp.svg)](https://pypi.org/project/phi-guard-mcp/)
 [![Release](https://img.shields.io/github/v/release/charlesree826/phi-guard-mcp.svg)](https://github.com/charlesree826/phi-guard-mcp/releases)
+[![Python](https://img.shields.io/badge/python-3.12%2B-blue.svg)](pyproject.toml)
 [![License](https://img.shields.io/github/license/charlesree826/phi-guard-mcp.svg)](LICENSE)
 
 MCP server and CLI for detecting, redacting, and auditing PHI before medical text is sent to AI
@@ -36,8 +35,10 @@ and [FDA device software functions](https://www.fda.gov/medical-devices/digital-
 
 ## Install
 
+Install from the GitHub release wheel:
+
 ```bash
-python -m pip install phi-guard-mcp
+python -m pip install https://github.com/charlesree826/phi-guard-mcp/releases/download/v0.1.1/phi_guard_mcp-0.1.1-py3-none-any.whl
 ```
 
 For local development:
@@ -45,6 +46,9 @@ For local development:
 ```bash
 python -m pip install -e ".[dev]"
 ```
+
+PyPI publishing is configured through GitHub Actions trusted publishing and will be enabled after
+the PyPI pending publisher entry is created for this repository.
 
 ## Quickstart
 

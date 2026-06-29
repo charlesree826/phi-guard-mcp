@@ -12,7 +12,8 @@ Official references:
 
 - GitHub username: `charlesree826`
 - Repository URL: `https://github.com/charlesree826/phi-guard-mcp`
-- PyPI package: `https://pypi.org/project/phi-guard-mcp/`
+- Installable release: `https://github.com/charlesree826/phi-guard-mcp/releases/tag/v0.1.1`
+- PyPI package: pending PyPI trusted publisher setup
 - Role: primary maintainer and original AI-assisted implementation owner
 - License: MIT
 - Current release: `v0.1.1`
@@ -40,7 +41,7 @@ without turning the project into regulated clinical decision support.
 
 - MIT-licensed Python package with CLI and MCP stdio server.
 - Public GitHub release `v0.1.1` with wheel and source distribution.
-- PyPI package for `pip install phi-guard-mcp`.
+- GitHub Actions trusted publishing workflow prepared for PyPI.
 - GitHub Actions on Ubuntu and Windows for lint, tests, compile checks, privacy gate, package build,
   and package metadata validation.
 - Community files: contributing guide, security policy, code of conduct, issue templates, and pull

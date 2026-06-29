@@ -16,11 +16,11 @@ Official references:
 - OpenAI Organization ID: do not store in the repository; required in the form.
 - GitHub username: `charlesree826`
 - Repository URL: `https://github.com/charlesree826/phi-guard-mcp`
-- Installable release: `https://github.com/charlesree826/phi-guard-mcp/releases/tag/v0.1.1`
+- Installable release: `https://github.com/charlesree826/phi-guard-mcp/releases/tag/v0.1.2`
 - PyPI package: pending PyPI trusted publisher setup
-- Role: primary maintainer and original AI-assisted implementation owner
+- Role: primary maintainer and repository owner
 - License: MIT
-- Current release: `v0.1.1`
+- Current release: `v0.1.2`
 
 ## Qualification Draft
 
@@ -39,7 +39,8 @@ benchmark metrics, and audit summaries with transparent deterministic rules.
 
 This is a new project, so the application should not overstate adoption. The ecosystem importance is
 the gap it targets: local privacy guardrails for AI agent workflows that may handle medical text,
-without turning the project into regulated clinical decision support.
+without turning the project into regulated clinical decision support. The application should use the
+actual maintainer's ChatGPT account email, OpenAI organization ID, and GitHub account.
 
 ## Form-Ready Drafts
 
@@ -48,7 +49,7 @@ These drafts are kept under 500 characters for fields with short text limits.
 Qualification / project importance:
 
 ```text
-phi-guard-mcp is healthcare AI privacy infrastructure: a local MCP server and CLI that detects, redacts, audits, and gates PHI-like identifiers before medical text enters AI agent workflows. It ships synthetic benchmarks, Safe Harbor mapping as a review aid, CI privacy gate, v0.1.1 release assets, public roadmap issues, and explicit non-goals around diagnosis, treatment, CDS, and HIPAA compliance claims.
+phi-guard-mcp is healthcare AI privacy infrastructure: a local MCP server and CLI that detects, redacts, audits, and gates PHI-like identifiers before medical text enters AI agent workflows. It ships synthetic benchmarks, Safe Harbor mapping as a review aid, CI privacy gate, v0.1.2 release assets, public roadmap issues, and explicit non-goals around diagnosis, treatment, CDS, and HIPAA compliance claims.
 ```
 
 API credits:
@@ -57,16 +58,16 @@ API credits:
 Use credits for Codex-assisted OSS maintenance: expand synthetic PHI benchmark cases, improve deterministic redaction rules, review privacy/security edge cases, triage issues, write MCP setup docs, add install smoke tests, and improve release workflows. Credits would not be used to process real patient data.
 ```
 
-Usage / ecosystem importance:
+Additional information:
 
 ```text
-New project with early adoption metrics, applying on ecosystem importance: privacy guardrails at the healthcare AI agent boundary. Public repo has MIT license, CI on Ubuntu/Windows, release assets, security policy, contributing docs, issue templates, and roadmap issues. PyPI trusted publishing is configured but pending PyPI account publisher setup.
+New project applying on ecosystem importance, not existing adoption metrics. Public repo has MIT license, CI on Ubuntu/Windows, v0.1.2 GitHub release with wheel/sdist, security policy, contributing docs, issue templates, roadmap issues, synthetic benchmark, Safe Harbor mapping review aid, and CI privacy gate. PyPI trusted publishing workflow is prepared, but PyPI package publishing is still pending.
 ```
 
 ## Maintenance Evidence
 
 - MIT-licensed Python package with CLI and MCP stdio server.
-- Public GitHub release `v0.1.1` with wheel and source distribution.
+- Public GitHub release `v0.1.2` with wheel and source distribution.
 - GitHub Actions trusted publishing workflow prepared for PyPI.
 - GitHub Actions on Ubuntu and Windows for lint, tests, compile checks, privacy gate, package build,
   and package metadata validation.

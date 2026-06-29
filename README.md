@@ -35,10 +35,10 @@ and [FDA device software functions](https://www.fda.gov/medical-devices/digital-
 
 ## Install
 
-Install from the GitHub release wheel:
+Install from the current GitHub release wheel:
 
 ```bash
-python -m pip install https://github.com/charlesree826/phi-guard-mcp/releases/download/v0.1.1/phi_guard_mcp-0.1.1-py3-none-any.whl
+python -m pip install https://github.com/charlesree826/phi-guard-mcp/releases/download/v0.1.2/phi_guard_mcp-0.1.2-py3-none-any.whl
 ```
 
 For local development:
@@ -48,7 +48,7 @@ python -m pip install -e ".[dev]"
 ```
 
 PyPI publishing is configured through GitHub Actions trusted publishing and will be enabled after
-the PyPI pending publisher entry is created for this repository.
+the PyPI package owner creates the matching pending publisher entry for this repository.
 
 ## Quickstart
 

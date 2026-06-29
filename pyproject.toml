@@ -4,13 +4,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "phi-guard-mcp"
-version = "0.1.1"
+version = "0.1.2"
 description = "MCP server and CLI for detecting, redacting, and auditing PHI before medical text is sent to AI agents."
 readme = "README.md"
 requires-python = ">=3.12"
 license = "MIT"
 authors = [
-  { name = "Liao Ding Chao" }
+  { name = "Charles Ree" }
 ]
 keywords = ["mcp", "medical-ai", "privacy", "phi", "de-identification", "hipaa"]
 classifiers = [
